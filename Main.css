@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color: darkslategrey;
+    padding: 16px 0;
+    color: white
+    
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+header li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    width: 1366;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    /*height: 180px;*/
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+    font-size: 18px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+#sports a {
+    background-color: blue;
+    color: antiquewhite;
+    padding: 4px;
+    display: inline-block;
+    text-decoration: underline;
+    font-weight: 600;
+    margin-top: 4px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+#sports h2  {
+    font-size: 50px;
+    color: black;
+    text-decoration: underline;
+    
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+#sports .articles article a {
+    background-color: blue;
+}
+
+#Economia h2 {
+    font-size: 50px;    
+}
+
+#Economia {
+    background-color: lightskyblue;
+    text-decoration: underline;
+}
+
+#Economia .articles article a {
+    background-color: blue;
+    color: antiquewhite;
+    padding: 4px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 4px;
+}
+
+#sports {
+    background-color: lightskyblue;
+}
+
+#Bombando {
+    background-color: red;
+}
+
+#Bombando h2 {
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+#Bombando div h3 {
+    font-size: 30px;
+    text-decoration: underline;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+#Bombando div h4 {
+    font-size: 35px;
+    text-decoration: underline;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    color: plum;
+}
+
+#Bombando a {
+    background-color: blue;
+    color: antiquewhite;
+    padding: 4px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 4px;
+}
+
+#Bombando p {
+    color: blueviolet;
+}
+
+#tecnologia {
+    background-color: pink;
+}
+
+section div h2 {
+    font-size: 50px;
+    text-decoration: underline;
+    color: gold;
+}
+
+#tecnologia a {
+    background-color: blue;
+    color: antiquewhite;
+    padding: 4px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 4px;
+}
+
+#tecnologia p {
+    color: yellow;
+}
+
+#tecnologia h3 {
+    color: chocolate;
+}
+
+
