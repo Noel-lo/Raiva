@@ -4,22 +4,22 @@
     box-sizing: border-box;
 }
 
+body, input ,textarea {
+    font-family: 'Oswald', sans-serif;
+}
+
 header,
 section h2,
 section h3,
 form button {
-    font-family: 'gabarito', cursive;
+    font-family: 'Gabarito', sans-serif;
     font-weight: normal;
-}
-
-body, input, textarea {
-font-family: 'Oswald', sans-serif;
 }
 
 header {
     padding: 16px 0;
-    background-color: blue;
-    color: white;
+    background-color: yellow;
+    color: black;
 }
 
 header h1,
@@ -29,16 +29,15 @@ section h2 {
 
 header nav li {
     display: inline;
-    margin-left: 8px;
+    margin-left: 20px;
+    color: black;
     font-size: 18px;
 }
 
 header nav li a {
-    display: inline;
-    margin-left: 8px;
+    color: black;
     text-decoration: none;
-    color: white;
-    }
+}
 
 .container {
     max-width: 1280px;
@@ -47,19 +46,10 @@ header nav li a {
 }
 
 header .container,
-section .container {
+section .container1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.marcas img {
-    height: 52px;
-}
-
-.marcas li {
-    display: inline;
-    margin-right: 8px;
 }
 
 section .container {
@@ -72,7 +62,6 @@ section {
 
 section h2 {
     margin-bottom: 16px;
-    color: blue;
 }
 
 section {
@@ -80,23 +69,32 @@ section {
 }
 
 section p {
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
-.Fachada {
-    margin-right: 34px;
+.store-front {
+    margin-right: 32px;
 }
 
-section div h3 {
-    color: blue;
+.social-links img {
+    height: 50px;
 }
 
-.Logo-rede img {
-    height: 45px;
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
 }
 
 form input,
-form textarea,
+textarea,
 form button {
     display: block;
     width: 320px;
@@ -109,49 +107,32 @@ form textarea {
     height: 180px;
 }
 
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
 section h3 {
     margin-bottom: 16px;
 }
 
 form button {
-    background-color:blue;
-    color: white;
+    background-color: yellow;
+    color: black;
     border: none;
     cursor: pointer;
 }
 
 form button:hover {
-    background-color: rgb(97, 94, 255);
+    background-color: rgb(175, 175, 27);
 }
 
 input:focus, textarea:focus {
-    outline-color: blue;
-}
-
-.metodo-contato {
-    display: flex;
-    justify-content: space-between;
-}
-
-div h3 {
-    margin-right: 50px;
-}
-
-div h3 {
-    margin-left: 50px;
-}
-
-.Logo-rede {
-    margin-left: 70px;
-}
-
-div .acompanhe {
-    display: flex;
-    justify-content: space-between;
+    outline-color: rgb(124, 124, 24);
 }
 
 footer {
-    background-color: blue;
-    color: rgb(172, 170, 170);
-    padding: 16px 0;
+    background-color: yellow;
+    color: black;
+    padding: 16 0;
 }
