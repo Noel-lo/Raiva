@@ -131,7 +131,7 @@ input:focus, textarea:focus {
     outline-color: rgb(124, 124, 24);
 }
 
-footer {
+footer  {
     background-color: yellow;
     color: black;
     padding: 16 0;
